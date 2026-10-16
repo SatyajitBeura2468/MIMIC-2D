@@ -19,7 +19,7 @@
 </p>
 
 ### The mission
-- **5 themed houses · 30 stars · 6 colour styles** to unlock.
+- **5 themed houses · 30 stars · 6 colour styles.**
 - Mimic nearby objects, fit the room, and freeze when you're being watched.
 - Outsmart inspectors, cameras, lasers and creaky floors.
 - Find power-ups, hide, sneak, and collect cookies before time is up.
