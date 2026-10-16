@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="861" viewBox="0 0 1440 861" role="img" aria-labelledby="title desc">
+<title id="title">Mimic 2D — game screen preview</title>
+<desc id="desc">A stylised recreation of the game's purple tiled home screen with gold title, house scene, sneaky lamp, inspector, and launch menu.</desc>
+<defs>
+ <linearGradient id="bg" x2=".9" y2="1"><stop stop-color="#5d6cdf"/><stop offset="1" stop-color="#26235d"/></linearGradient>
+ <linearGradient id="cta" x2="1" y2="1"><stop stop-color="#ff5d9c"/><stop offset="1" stop-color="#ffb17e"/></linearGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe45e"/><stop offset="1" stop-color="#ffb51e"/></linearGradient>
+ <linearGradient id="beam" x2="1" y2="1"><stop stop-color="#fffba5" stop-opacity=".75"/><stop offset="1" stop-color="#fff9a0" stop-opacity="0"/></linearGradient>
+ <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#ffffff" stop-opacity=".24"/><stop offset="1" stop-color="#ffffff" stop-opacity=".03"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#11103d" flood-opacity=".48"/></filter>
+ <pattern id="tile" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M90 0H0V90" fill="none" stroke="#d7dcff" stroke-opacity=".11" stroke-width="2"/><rect x="2" y="2" width="86" height="86" fill="#ffffff" opacity=".022"/></pattern>
+</defs>
+<rect width="1440" height="861" fill="url(#bg)"/><rect width="1440" height="861" fill="url(#tile)"/>
+<g opacity=".15" fill="#d8dcff"><path d="M20 0L250 0 680 861H420Z"/><path d="M1180 0H1440L920 861H740Z"/></g>
+<g fill="#e4e4ff" opacity=".8"><circle cx="292" cy="187" r="1.6"/><circle cx="1125" cy="119" r="1.5"/><circle cx="1216" cy="530" r="1.4"/><circle cx="263" cy="697" r="1.1"/></g>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+ <g transform="translate(602 96)"><rect width="65" height="28" rx="14" fill="#746db7" fill-opacity=".45" stroke="#ffffff" stroke-opacity=".3"/><text x="32" y="19" font-size="13" fill="#fff4d6">★ 0/30</text></g>
+ <g transform="translate(678 96)"><rect width="55" height="28" rx="14" fill="#746db7" fill-opacity=".45" stroke="#ffffff" stroke-opacity=".3"/><text x="27" y="19" font-size="13" fill="#fff4d6">🍪 0</text></g>
+ <g transform="translate(742 96)"><rect width="63" height="28" rx="14" fill="#746db7" fill-opacity=".45" stroke="#ffffff" stroke-opacity=".3"/><text x="31" y="19" font-size="13" fill="#fff4d6">🔥 0d</text></g>
+ <g transform="translate(816 96)"><circle cx="14" cy="14" r="14" fill="#746db7" fill-opacity=".45" stroke="#ffffff" stroke-opacity=".3"/><text x="14" y="19" font-size="13">🔊</text></g>
+ <text x="720" y="192" font-size="75" letter-spacing="1.2" font-weight="900" fill="#aa7220" opacity=".9">BUILD MIMIC</text>
+ <text x="720" y="185" font-size="75" letter-spacing="1.2" font-weight="900" fill="url(#gold)" stroke="#ffd84a" stroke-width=".7">BUILD MIMIC</text>
+ <g transform="rotate(-4 647 239)"><rect x="614" y="220" width="66" height="36" rx="13" fill="#ff5d95"/><text x="647" y="246" font-family="Georgia,serif" font-size="26" fill="#fff">2D</text></g>
+ <text x="757" y="241" font-family="Georgia,serif" font-size="11" fill="#d7c6ff" letter-spacing="2">SNEAK · HIDE · SNACK</text>
+</g>
+<!-- Room thumbnail -->
+<g filter="url(#shadow)">
+ <rect x="539" y="264" width="362" height="214" rx="20" fill="#16112c"/>
+ <rect x="543" y="266" width="354" height="208" rx="17" fill="#edcf89"/>
+ <rect x="543" y="266" width="354" height="84" rx="16" fill="#f9dfa0"/>
+ <rect x="543" y="338" width="354" height="42" fill="#cfb07b"/>
+ <rect x="543" y="379" width="354" height="95" fill="#735042"/>
+ <path d="M543 396H897M543 416H897M543 438H897M543 458H897" stroke="#4b2d39" stroke-width="3" opacity=".55"/>
+ <path d="M543 379L897 379 897 390 543 410Z" fill="#876047"/>
+ <rect x="868" y="266" width="21" height="113" fill="#51372f"/><rect x="874" y="266" width="5" height="113" fill="#1b1732"/>
+ <!-- window -->
+ <rect x="570" y="278" width="84" height="46" rx="5" fill="#fff0bb"/><rect x="579" y="284" width="67" height="34" fill="#ffecaf"/><path d="M612 284V318M579 301H646" stroke="#c59c63" stroke-width="3"/>
+ <!-- table -->
+ <rect x="557" y="358" width="148" height="10" rx="3" fill="#b7884f"/><path d="M568 367V405M692 367V405" stroke="#8d603f" stroke-width="5"/>
+ <!-- framed art and vase -->
+ <rect x="646" y="275" width="85" height="10" rx="2" fill="#9a713e"/><rect x="658" y="263" width="10" height="15" fill="#f26c55"/><rect x="670" y="263" width="10" height="15" fill="#ffcf4a"/><rect x="682" y="263" width="10" height="15" fill="#5eafe5"/><rect x="694" y="263" width="10" height="15" fill="#53cc91"/><rect x="706" y="263" width="10" height="15" fill="#be86ec"/>
+ <!-- plant -->
+ <path d="M794 402Q784 356 752 343Q780 340 791 370Q796 335 821 325Q822 359 802 382Q827 358 845 365Q836 396 809 401Z" fill="#6f9b4d"/><path d="M797 405L803 366M796 390L778 365M802 385L825 354" stroke="#49763b" stroke-width="4"/><path d="M779 399L815 399L809 420Q795 428 784 420Z" fill="#a85f35"/><path d="M782 403H812" stroke="#ce8c51" stroke-width="3"/>
+ <!-- lamp mimic -->
+ <g transform="translate(599 340)"><ellipse cy="46" rx="26" ry="7" fill="#4b3b32" opacity=".3"/><rect x="-13" y="2" width="26" height="28" rx="3" fill="#fff8d5" fill-opacity=".5" stroke="#fff8d5" stroke-width="3"/><path d="M-26 0Q-29-15-13-19H13Q29-15 26 0Z" fill="#ff624f"/><path d="M-18 30H18" stroke="#fff8d5" stroke-width="3"/><circle cx="-10" cy="20" r="4" fill="#ffcf4a"/><circle cx="10" cy="20" r="4" fill="#ffcf4a"/><path d="M0 38L-4 42L4 42Z" fill="#fff8d5"/></g>
+ <path d="M600 346L542 320 542 382 686 349Z" fill="url(#beam)"/>
+ <!-- inspector -->
+ <g transform="translate(742 348)"><ellipse cy="60" rx="28" ry="7" fill="#4b3b32" opacity=".3"/><circle cy="-20" r="14" fill="#f1c08b"/><path d="M-27-34Q-28-58 0-55Q28-58 27-34L38-29H-38Z" fill="#13122d"/><rect x="-27" y="-1" width="54" height="40" rx="12" fill="#2f448b"/><rect x="-27" y="22" width="54" height="7" fill="#ffd449"/><path d="M-15 38V63M15 38V63" stroke="#172148" stroke-width="11"/><path d="M-25 3L-52 17M25 3L37 5" stroke="#2f448b" stroke-width="10" stroke-linecap="round"/><circle cx="-5" cy="-21" r="2" fill="#272038"/><circle cx="5" cy="-21" r="2" fill="#272038"/></g>
+ <g><rect x="572" y="267" width="47" height="14" rx="3" fill="#fff2c8"/><text x="596" y="277" font-family="Arial,sans-serif" font-size="7" fill="#58482f" text-anchor="middle">1 COOKIE</text></g>
+ <path d="M543 426H895" stroke="#a38556" stroke-width="4" opacity=".5"/>
+ <ellipse cx="689" cy="451" rx="151" ry="24" fill="#7d4a83"/><path d="M544 451Q693 471 841 451" fill="none" stroke="#a36aa2" stroke-width="3" opacity=".8"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle" fill="#fff4d6">
+ <text x="720" y="499" font-size="13" letter-spacing=".3">CRUMB ROOKIE · 0/15 🍪</text>
+ <rect x="570" y="505" width="300" height="8" rx="4" fill="#ffffff" fill-opacity=".18"/>
+ <rect x="570" y="505" width="0" height="8" rx="4" fill="#ffcf4a"><animate attributeName="width" values="0;56;0" dur="5s" repeatCount="indefinite"/></rect>
+</g>
+<!-- Main launch button -->
+<g filter="url(#shadow)">
+ <rect x="570" y="522" width="300" height="71" rx="29" fill="#a96d42" opacity=".9"/>
+ <rect x="570" y="517" width="300" height="70" rx="29" fill="url(#cta)"/>
+ <path d="M603 520L636 520 606 585 577 585Z" fill="#fff" opacity=".19"><animateTransform attributeName="transform" type="translate" values="-30 0;310 0;310 0" dur="3s" repeatCount="indefinite"/></path>
+ <text x="720" y="551" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="900" text-anchor="middle" fill="#241542">SNEAK IN</text>
+ <text x="720" y="574" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#342044">House 1 · Tiny Studio</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+ <g transform="translate(570 601)"><rect width="93" height="66" rx="22" fill="#201b50" opacity=".5"/><rect width="93" height="63" rx="22" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".25"/><text x="46" y="30" font-size="24">🏠</text><text x="46" y="48" font-size="12" fill="#fff">HOUSES</text></g>
+ <g transform="translate(673 601)"><rect width="93" height="66" rx="22" fill="#201b50" opacity=".5"/><rect width="93" height="63" rx="22" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".25"/><text x="46" y="30" font-size="24">🎨</text><text x="46" y="48" font-size="12" fill="#fff">STYLE</text></g>
+ <g transform="translate(777 601)"><rect width="93" height="66" rx="22" fill="#201b50" opacity=".5"/><rect width="93" height="63" rx="22" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".25"/><text x="46" y="30" font-size="24">📖</text><text x="46" y="48" font-size="12" fill="#fff">RULES</text></g>
+ <g transform="translate(642 675)"><rect width="157" height="28" rx="14" fill="url(#cta)"/><text x="78" y="18" font-size="12" fill="#fff">🎁 DAILY COOKIES +5</text></g>
+ <text x="720" y="726" font-size="14" fill="#fff4d6">Furniture has no feelings. Inspectors have</text>
+ <text x="720" y="745" font-size="14" fill="#fff4d6">flashlights.</text>
+ <text x="720" y="765" font-family="Georgia,serif" font-size="9" letter-spacing="3" fill="#b4a1d8">A BEURA LABS GAME</text>
+</g>
+<!-- ambient motes -->
+<g fill="#ffcf4a"><circle cx="264" cy="408" r="4" opacity=".6"><animate attributeName="cy" values="408;390;408" dur="2.4s" repeatCount="indefinite"/></circle><circle cx="995" cy="755" r="6" opacity=".85"><animate attributeName="opacity" values=".2;.9;.2" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="1040" cy="122" r="3" opacity=".6"><animate attributeName="cy" values="122;105;122" dur="3s" repeatCount="indefinite"/></circle></g>
+<g transform="translate(249 403)"><text font-size="28">🧸</text></g><g transform="translate(977 750)"><text font-size="25">🍕</text></g><g transform="translate(987 819)"><text font-size="24">🧊</text></g>
+</svg>
